@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar'; 
 import TextForm from './components/TextForm'; 
+import Footer from './components/Footer'; 
 import React, {useState} from 'react'
 // import About from './components/About'
 
@@ -26,6 +27,7 @@ function App() {
     <div className="container my-3">
     {/* <About/> */}
     <TextForm heading="Sarkari Word Counter" mode={mode}/>
+    <Footer/>
     </div>
     </>
     
